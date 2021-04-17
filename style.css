@@ -1,0 +1,84 @@
+body{
+    background-image: radial-gradient(rgb(92, 131, 42) 50%, transparent 50%);
+    background-size: 6px 6px;
+}
+
+container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheet {
+    display: flex;
+    border: lightyellow solid 1px;
+    width: 80%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.openered {
+    pointer-events: none;
+    background-color: rgba(221, 130, 130, 0.863);
+    text-decoration: dashed;
+}
+.openered .card{
+    opacity: 0.7;
+}
+
+
+.card {
+    display: block;
+    width: 100px;
+    height: 150px;
+    background-color: rgb(48, 133, 37);
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 4px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 8px rgba(142, 145, 148, 0.8) ;
+}
+
+.card:active{
+    background-color: rgb(255, 136, 0);
+}
+.active{
+    background-color: rgb(255, 136, 0);
+}
+
+.card sub{
+    display: block;
+    text-align: center;
+    height: 20%;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 0px rgba(76, 0, 130, 0.507);
+}
+
+.material-icons{
+    width: 100%;
+    text-shadow: 1px 1px 0px rgba(76, 0, 130, 0.507);
+}
+
+.disponibilidad{
+    display: inline-block;
+    margin-top: 50px;
+    width: 300px;
+    height: 55px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.disponibilidad .disponible{
+    left: 20px;
+    font-size: 32px;
+    margin-top: 12;
+    background-color: #eee;
+}
+

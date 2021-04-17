@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MotoD</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+  <head></head>
+  <layout>
+    <header>
+      <nav class="nav"></nav>
+    </header>
+    <main>
+      <container>
+        <div class="sheet " id="open">
+          <div class="card">
+            <sub>moto 1</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card">
+            <sub>moto 2</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card">
+            <sub>moto 3</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card">
+            <sub>moto 4</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card">
+            <sub>moto 5</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card">
+            <sub>moto 6</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card">
+            <sub>moto 7</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+          <div class="card" name="form_reloj">
+            <sub>moto 8</sub><span class="material-icons" style="font-size: 48px;">moped</span>
+            <small class="timer">00:00</small>
+          </div>
+        </div>
+      </container>
+      <container>
+
+        <div class="disponibilidad">Motos Disponible <span class="disponible" id="disponible">
+
+          </span>
+          <form name="form_reloj">
+            <input type="text" name="reloj" size="10"
+              style="background-color : darkgreen; color : White; font-family : Verdana, Arial, Helvetica; font-size : 12pt; text-align : center;"
+              onfocus="window.document.form_reloj.reloj.blur()">
+          </form>
+        </div>
+      </container>
+    </main>
+    <footer></footer>
+  </layout>
+  <script src="script.js"></script>
+</body>
+
+</html>
