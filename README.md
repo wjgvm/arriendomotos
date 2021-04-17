@@ -1,5 +1,5 @@
 # Arriendomotos
-## Es una practica para alquiler de motos presentada para practicar y desarrollo de portafolio.
+## Es una practica para alquiler de motos presentada para practicar y desarrollar un portafolio.
   
   historia. lo desarrolle desde 0 me costo mucho no tengo mucha experiencia en js, por ese mismo motivo me dedique en realizar esta miniaventura. El tiempo que tarde en desarrollarlo fue de 26 horas y donde se me dificulto fue cuando realice la asignacion de los addEventenLintener de cada elemento. al implementar arrow functions estos fallaban lelge a tardar 4 horas para despues verme que no era la solucion, luego descubri que mas adelante que tenia que separar el codigo por modulos ya que si lo hacia en una extructura unica las variables perdian los valores de inicialización, fue muy divertido, aunque la meta era de 1 hora realizar una lista sencilla yo quiece realizar una interfaz mas amigables e interactiva, por eso que genere el css, aunque me gustaria haber incluido algunas funciones de detencion de resolucion con css para hacerlo responsive.
   
